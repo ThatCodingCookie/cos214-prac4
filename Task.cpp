@@ -60,7 +60,7 @@ int Task::getDuration() const
 void Task::describe(int depth) const
 {
     std::cout
-        << std::string(depth, ' ')
+        << std::string(depth * 2, ' ')
         << name
         << " State: " << state->getName()
         << " Cost: R" << baseCost

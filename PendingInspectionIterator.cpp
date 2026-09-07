@@ -26,7 +26,6 @@ void PendingInspectionIterator::buildSnapshot(const WorkGroup* group)
     }
 }
 
-
 void PendingInspectionIterator::first()
 {
     position = 0;
